@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "widget/1.0.0": {
+        "dependencies": {
+          "SimpleWifi.netstandard": "2.0.0",
+          "Windows": "255.255.255.255"
+        },
+        "runtime": {
+          "widget.dll": {}
+        }
+      },
+      "SimpleWifi.netstandard/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/SimpleWifi.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Windows/255.255.255.255": {
+        "runtime": {
+          "Windows.winmd": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "widget/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleWifi.netstandard/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lJuk2zjX4snKbrxfDnDEwYb8dTFR/UbyMb9umljexOP1nuXjdYXNX3T2+zrdxZue359ZqvHC8aAAGkgWS6PFFw==",
+      "path": "simplewifi.netstandard/2.0.0",
+      "hashPath": "simplewifi.netstandard.2.0.0.nupkg.sha512"
+    },
+    "Windows/255.255.255.255": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

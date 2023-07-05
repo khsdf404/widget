@@ -1,0 +1,8 @@
+Legs.&%True
+Shoulders.&%True
+--empty&%False
+Better CalendarGrid&%True
+Spotify track's duration(set with click; get with bitmap 1 pixel, 215px whole length)&%True
+Settings window&%False
+Spotify tracks' name + open spotify button&%True
+Create process checker&%True

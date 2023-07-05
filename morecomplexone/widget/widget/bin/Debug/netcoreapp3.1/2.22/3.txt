@@ -1,0 +1,9 @@
+Morning abs.&%True
+Morning 30 push-ups.&%True
+Cardio.&%False
+Evening abs.&%False
+Evening 30 push-ups.&%False
+--empty&%False
+Wind + humidity&%True
+Day of Week&%True
+Aneki or Holidays&%True

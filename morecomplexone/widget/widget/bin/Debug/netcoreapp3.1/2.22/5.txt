@@ -1,0 +1,8 @@
+Biceps.&%False
+LowerBack.&%False
+--empty&%False
+Moving track's name&%True
+шрифты())))()&%True
+мб сменяющуюся кнопку спотифая&%True
+show без фокуса &%True
+fix duration hover white circle&%True

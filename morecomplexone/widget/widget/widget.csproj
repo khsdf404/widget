@@ -1,0 +1,112 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<UseWPF>true</UseWPF>
+	<UseWindowsForms>true</UseWindowsForms>
+	<TargetPlatformVersion>10.0</TargetPlatformVersion>
+	<ApplicationIcon>laptop.ico</ApplicationIcon>
+	<NoWin32Manifest>true</NoWin32Manifest> 
+  </PropertyGroup> 
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>C:\Users\Kaars\Desktop\</OutputPath>
+  </PropertyGroup> 
+
+    <ItemGroup>
+      <None Remove="Views\Windows\ArchitectsDaughter.ttf" />
+      <None Remove="Views\Windows\BirdFeather - Regular.ttf" />
+      <None Remove="Views\Windows\BirdFeather-Regular.ttf" />
+      <None Remove="Views\Windows\BirdFeather.ttf" />
+      <None Remove="Views\Windows\CinzelDecorative-Regular.ttf" />
+      <None Remove="Views\Windows\ExpletusSans-Medium.ttf" />
+      <None Remove="Views\Windows\fonts\Aetherius-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\Carolus-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\ElMessiri-VariableFont-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\ElMessiri-VariableFont.ttf" />
+      <None Remove="Views\Windows\fonts\ElMessiri-VariableFont_wght-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\ElMessiri-VariableFont_wght.ttf" />
+      <None Remove="Views\Windows\fonts\ElMessiri-VariableFont_wghtRegular.ttf" />
+      <None Remove="Views\Windows\fonts\Flow Ext-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\gnyrwn971-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\gnyrwn971.ttf" />
+      <None Remove="Views\Windows\fonts\Gunny Rewritten-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\Gunny Rewritten.ttf" />
+      <None Remove="Views\Windows\fonts\Lato-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\Merienda-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\Occidental-Regular.ttf" />
+      <None Remove="Views\Windows\fonts\Packard-Regular.ttf" />
+      <None Remove="Views\Windows\FrederickatheGreat-Regular.ttf" />
+      <None Remove="Views\Windows\images\pause.png" />
+      <None Remove="Views\Windows\images\share-reverse.png" />
+      <None Remove="Views\Windows\Lato-Regular.ttf" />
+      <None Remove="Views\Windows\Meri.ttf" />
+      <None Remove="Views\Windows\Merienda-Regular.ttf" />
+      <None Remove="Views\Windows\Raleway-Regular.ttf" />
+    </ItemGroup>
+ 
+ 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Infrastructure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleWifi.netstandard" Version="2.0.0" /> 
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Runtime.WindowsRuntime">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETCore\v4.5\System.Runtime.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\Windows\fonts\Aetherius-Regular.ttf" />
+    <Resource Include="Views\Windows\fonts\Carolus-Regular.ttf" />
+    <Resource Include="Views\Windows\fonts\Flow Ext-Regular.ttf" />
+    <Resource Include="Views\Windows\fonts\Gunny Rewritten-Regular.ttf" />
+    <Resource Include="Views\Windows\fonts\Lato-Regular.ttf" />
+    <Resource Include="Views\Windows\fonts\Merienda-Regular.ttf" />
+    <Resource Include="Views\Windows\images\arrow.png" />
+    <Resource Include="Views\Windows\images\bt_ico.png" />
+    <Resource Include="Views\Windows\images\headphones.png" />
+    <Resource Include="Views\Windows\images\next.png" />
+    <Resource Include="Views\Windows\images\pause.png" />
+    <Resource Include="Views\Windows\images\play.png" />
+    <Resource Include="Views\Windows\images\recyclebin.png" />
+    <Resource Include="Views\Windows\images\share-reverse.png" />
+    <Resource Include="Views\Windows\images\share.png" />
+    <Resource Include="Views\Windows\images\water.png" />
+    <Resource Include="Views\Windows\images\wifi_ico.png" />
+    <Resource Include="Views\Windows\images\wind.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_-ra_d.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_-ra_n.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_-sn_d.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_-sn_n.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_d.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_n.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_ra_d.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_ra_n.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_sn_d.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\bkn_sn_n.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\not-found.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\ovc.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\ovc_-ra.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\ovc_-sn.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\ovc_ra.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\ovc_ra_sn.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\ovc_sn.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\skc_d.png" />
+    <Resource Include="Views\Windows\images\yandexSvgs\skc_n.png" />
+  </ItemGroup>
+
+
+</Project>

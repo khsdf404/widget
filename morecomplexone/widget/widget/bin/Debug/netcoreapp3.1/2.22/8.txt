@@ -1,0 +1,10 @@
+Morning abs.&%True
+Morning 30 push-ups.&%True
+Cardio.&%True
+Evening abs.&%False
+Evening 30 push-ups.&%False
+--empty&%False
+months switcher&%False
+1 file for all months &%False
+maybe better track anim&%True
+переключатель устройств&%False

@@ -1,0 +1,8 @@
+Forearm.&%True
+Back.&%True
+--empty&%False
+refresh widgetInfo when date was changed&%True
+strange dateInfo focus bug&%True
+open weather on temperature click&%True
+spotify click duration event&%False
+spotify scale 1.0 event&%True

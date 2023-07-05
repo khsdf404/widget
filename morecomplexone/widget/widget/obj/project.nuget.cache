@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lw/dCRDshAh2hZFHF7LpZXFLM4VKfRe92h6j75lxhLXp5bqKWMFT15uV48p/nyx/cPlbhsDAdai0IS4m46GyVg==",
+  "success": true,
+  "projectFilePath": "D:\\YandexDisk\\1__Dir\\Projects\\widget\\111\\widget\\widget\\widget.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kaars\\.nuget\\packages\\simplewifi.netstandard\\2.0.0\\simplewifi.netstandard.2.0.0.nupkg.sha512",
+    "C:\\Users\\Kaars\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.28\\microsoft.netcore.app.host.win-x64.3.1.28.nupkg.sha512",
+    "C:\\Users\\Kaars\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\Kaars\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Kaars\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

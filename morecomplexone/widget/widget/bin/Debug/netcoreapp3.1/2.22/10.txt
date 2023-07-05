@@ -1,0 +1,6 @@
+Morning abs.&%False
+Morning 30 push-ups.&%False
+Cardio.&%False
+Evening abs.&%True
+Evening 30 push-ups.&%True
++15 pull-ups&%True
